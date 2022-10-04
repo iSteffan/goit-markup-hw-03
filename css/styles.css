@@ -16,20 +16,23 @@ body {
 h1,
 h2,
 h3 {
-  margin: 0;
+  margin: 0 auto;
 }
 
 p {
-  margin: 0;
+  margin: 0 auto;
 }
 
 ul {
-  margin: 0;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .container {
   margin-right: auto;
   margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 1200px;
   outline: 1px solid blue;
 }
@@ -198,7 +201,9 @@ ul {
 }
 
 /* ----------------------------------------Index.html---------------------------------------- */
-.main-section {
+.main-section.section {
+  padding-bottom: 200px;
+  padding-top: 200px;
   background: var(--background-color-secondary);
 }
 
@@ -224,6 +229,7 @@ ul {
 
 .advantage-list {
   list-style: none;
+  outline: 1px solid tomato;
 }
 
 .advantage-description {
@@ -245,6 +251,7 @@ ul {
 
 .samples-list {
   list-style: none;
+  outline: 1px solid tomato;
 }
 
 .our-team {
