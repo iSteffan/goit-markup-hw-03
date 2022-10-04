@@ -25,7 +25,7 @@ p {
 
 ul {
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .container {
@@ -43,7 +43,14 @@ ul {
 }
 
 /* ----------------------------------------Хедер---------------------------------------- */
+.page-header > .container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  margin-right: 93px;
+
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -56,6 +63,11 @@ ul {
 
 .logo-part {
   color: var(--accent-color);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
 }
 
 .navigation-list-link:hover,
@@ -75,7 +87,7 @@ ul {
   outline: 1px solid tomato;
 }
 
-.contacts-link {
+.contacts-list-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -87,11 +99,29 @@ ul {
 
 .navigation-list,
 .contacts-list {
+  display: flex;
   list-style: none;
+}
+
+.container .contacts-list {
+  margin-left: auto;
+}
+
+.navigation-list-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .navigation-list-item > .current {
   color: var(--accent-color);
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contacts-list-item + .contacts-list-item {
+  margin-left: 50px;
 }
 
 /* ----------------------------------------Кнопки---------------------------------------- */
