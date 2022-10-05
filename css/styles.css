@@ -15,17 +15,22 @@ body {
 /* ----------------------------------------Скидування стилів/Утиліти---------------------------------------- */
 h1,
 h2,
-h3 {
-  margin: 0 auto;
-}
-
+h3,
+h4,
+h5,
+h6,
 p {
-  margin: 0 auto;
+  margin: 0;
 }
 
-ul {
+ul,
+ol {
   padding: 0;
   margin: 0;
+}
+
+img {
+  display: block;
 }
 
 .container {
@@ -240,12 +245,13 @@ ul {
 
 .main-title {
   margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
 
   width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -312,10 +318,6 @@ ul {
   margin-right: 30px;
 }
 
-.samples-list-item > img {
-  display: block;
-}
-
 .our-team {
   background-color: #f5f4fa;
 }
@@ -358,10 +360,6 @@ ul {
 
 .member-list-item:not(:last-child) {
   margin-right: 30px;
-}
-
-.member-list-item > img {
-  display: block;
 }
 
 /* ----------------------------------------Portfolio.html---------------------------------------- */
