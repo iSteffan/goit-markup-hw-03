@@ -234,10 +234,14 @@ ul {
 .main-section.section {
   padding-bottom: 200px;
   padding-top: 200px;
+  text-align: center;
   background: var(--background-color-secondary);
 }
 
 .main-title {
+  margin-bottom: 30px;
+
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
