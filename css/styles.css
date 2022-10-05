@@ -273,7 +273,7 @@ ul {
 
 .advantage-list-item {
   list-style: none;
-  width: 270px;
+  width: calc((100% - 90px) / 4);
   outline: 1px solid tomato;
 }
 
@@ -299,8 +299,17 @@ ul {
 }
 
 .samples-list {
+  display: flex;
+}
+
+.samples-list-item {
+  width: calc((100% - 60px) / 3);
   list-style: none;
   outline: 1px solid tomato;
+}
+
+.samples-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .our-team {
