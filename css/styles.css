@@ -312,6 +312,10 @@ ul {
   margin-right: 30px;
 }
 
+.samples-list-item > img {
+  display: block;
+}
+
 .our-team {
   background-color: #f5f4fa;
 }
@@ -357,7 +361,7 @@ ul {
 }
 
 .member-list-item > img {
-  outline: 1px solid red;
+  display: block;
 }
 
 /* ----------------------------------------Portfolio.html---------------------------------------- */
