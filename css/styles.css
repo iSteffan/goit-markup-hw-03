@@ -253,6 +253,8 @@ ul {
 }
 
 .advantage-title {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -262,7 +264,16 @@ ul {
 }
 
 .advantage-list {
+  display: flex;
+}
+
+.advantage-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advantage-list-item {
   list-style: none;
+  width: 270px;
   outline: 1px solid tomato;
 }
 
@@ -281,6 +292,10 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   outline: 1px solid tomato;
+}
+
+.section-samples.section {
+  padding-top: 0;
 }
 
 .samples-list {
