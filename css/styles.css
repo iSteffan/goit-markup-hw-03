@@ -39,7 +39,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  outline: 1px solid blue;
 }
 
 .section {
@@ -63,7 +62,6 @@ img {
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
-  outline: 1px solid tomato;
 }
 
 .logo-part {
@@ -89,7 +87,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color-main);
   text-decoration: none;
-  outline: 1px solid tomato;
 }
 
 .contacts-list-link {
@@ -99,7 +96,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color-secondary);
   text-decoration: none;
-  outline: 1px solid tomato;
 }
 
 .navigation-list,
@@ -179,7 +175,6 @@ img {
 
   background: var(--background-color-secondary);
   border: 1px solid #ececec;
-  outline: 1px solid tomato;
 }
 .logo-footer {
   display: block;
@@ -192,7 +187,6 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
-  outline: 1px solid tomato;
 }
 
 .contacts-footer:hover,
@@ -207,13 +201,11 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  outline: 1px solid tomato;
 }
 
 .address-list {
   font-style: normal;
   list-style: none;
-  outline: 1px solid tomato;
 }
 
 .address-list > li:not(:last-child) {
@@ -227,7 +219,6 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
-  outline: 1px solid tomato;
 }
 
 /* ----------------------------------------Прихований контент---------------------------------------- */
@@ -265,7 +256,6 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  outline: 1px solid tomato;
 }
 
 .advantage-title {
@@ -276,7 +266,6 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  outline: 1px solid tomato;
 }
 
 .advantage-list {
@@ -290,7 +279,6 @@ img {
 .advantage-list-item {
   list-style: none;
   width: calc((100% - 90px) / 4);
-  outline: 1px solid tomato;
 }
 
 .advantage-description {
@@ -298,7 +286,6 @@ img {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--text-color-secondary);
-  outline: 1px solid tomato;
 }
 
 .secondary-title {
@@ -307,7 +294,6 @@ img {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  outline: 1px solid tomato;
 }
 
 .section-samples.section {
@@ -321,7 +307,6 @@ img {
 .samples-list-item {
   width: calc((100% - 60px) / 3);
   list-style: none;
-  outline: 1px solid tomato;
 }
 
 .samples-list-item:not(:last-child) {
@@ -344,7 +329,6 @@ img {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  outline: 1px solid teal;
 }
 
 .team-position {
@@ -356,7 +340,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color-secondary);
-  outline: 1px solid tomato;
 }
 
 .member-list-item {
@@ -374,28 +357,54 @@ img {
 
 /* ----------------------------------------Portfolio.html---------------------------------------- */
 .list-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
   list-style: none;
-  outline: 1px solid tomato;
+}
+
+.list-filter > li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-list-item {
+  width: calc((100% - 60px) / 3);
   border: 1px solid #eeeeee;
   list-style: none;
-  outline: 1px solid teal;
+}
+
+.project-list-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.project-list-item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+
+.project-list-item > img {
+  margin-bottom: 20px;
 }
 
 .project-title {
+  margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  outline: 1px solid tomato;
 }
 
 .project-description {
+  margin-bottom: 20px;
+
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-color-secondary);
-  outline: 1px solid teal;
 }
