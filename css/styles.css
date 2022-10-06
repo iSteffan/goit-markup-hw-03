@@ -174,11 +174,17 @@ img {
 
 /* ----------------------------------------Футер---------------------------------------- */
 .footer-style {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background: var(--background-color-secondary);
   border: 1px solid #ececec;
   outline: 1px solid tomato;
 }
 .logo-footer {
+  display: block;
+  margin-bottom: 20px;
+
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -208,6 +214,10 @@ img {
   font-style: normal;
   list-style: none;
   outline: 1px solid tomato;
+}
+
+.address-list > li:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .physical-address {
